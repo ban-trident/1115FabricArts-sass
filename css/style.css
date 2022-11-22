@@ -1,0 +1,338 @@
+/*bass*/
+body {
+  font-family: "Helvetica", "Helvetica Neue", "Yu Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 1.7142857143;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/*header*/
+.header {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.header__inner {
+  width: 73.125%;
+  min-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+.header__nav .nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+.header__nav .nav__info {
+  margin-left: 30px;
+}
+.header__nav .nav__link {
+  color: #000;
+  font-weight: bold;
+}
+
+/*footer*/
+.footer {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.footer__inner {
+  width: 73.125%;
+  min-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+.footer__copy {
+  color: #898989;
+  font-size: 12px;
+}
+
+/*unit*/
+.unit {
+  margin-bottom: 59px;
+}
+.unit__catch {
+  color: #898989;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.unit__title {
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+  color: #000;
+  border-bottom: 1px solid #000;
+  max-width: 120px;
+  font-family: Helvetica, sans-serif, Arial;
+  font-size: 38px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  line-height: 1.2894736842;
+}
+.unit__jp {
+  margin-bottom: 40px;
+}
+.unit__eng {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+/*card*/
+.card__icon {
+  margin-bottom: 30px;
+}
+.card__title {
+  font-size: 20px;
+  font-family: Helvetica, sans-serif, Arial;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+.card__catch {
+  font-size: 12px;
+  font-family: Helvetica, sans-serif, Arial;
+  color: #898989;
+}
+
+/*works*/
+.works {
+  padding-top: 100px;
+  padding-bottom: 78px;
+}
+.works__inner {
+  width: 73.125%;
+  min-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.works__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.works__item {
+  width: 31.6%;
+}
+
+/*project*/
+.project {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #FDF8EB;
+}
+.project__inner {
+  width: 73.125%;
+  min-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.project__item {
+  width: 48%;
+}
+.project__item .card__title {
+  display: inline;
+  background-color: #E40065;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.project__item .card__text {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+/*newsletter*/
+.newsletter {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #000;
+}
+.newsletter__inner {
+  width: 73.125%;
+  min-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsletter__info {
+  text-align: center;
+}
+.newsletter__title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+}
+.newsletter__textbox {
+  width: 300px;
+  height: 40px;
+  padding: 0;
+  border: none;
+}
+.newsletter__btn {
+  background-color: #E40065;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  border: none;
+}
+
+/*company*/
+.company__inner {
+  width: 73.125%;
+  min-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.company .unit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.company .unit__top {
+  width: 17.94%;
+}
+.company .unit__text {
+  width: 59.83%;
+}
+.company__info {
+  background: url(../images/bg_project01.jpg) no-repeat center center/100%;
+  color: #fff;
+  margin-bottom: 60px;
+  padding-top: 150px;
+  padding-left: 80px;
+  padding-bottom: 150px;
+}
+.company__info2 {
+  background: url(../images/bg_project02.jpg) no-repeat center center/100%;
+  color: #fff;
+  margin-bottom: 60px;
+  padding-top: 150px;
+  padding-left: 80px;
+  padding-bottom: 150px;
+}
+.company__title {
+  display: inline;
+  background-color: #E40065;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.company__text {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.company__list {
+  margin-top: 30px;
+}
+.company__listinfo {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.company__listinfo:last-child {
+  margin-bottom: 0;
+}
+
+/*about*/
+.about {
+  margin-bottom: 100px;
+}
+.about__inner {
+  width: 73.125%;
+  min-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__item {
+  width: 31.62%;
+}
+.about__item .card__text {
+  margin-top: 40px;
+}
+
+/*bordernav*/
+.bordernav {
+  background-color: #000;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: Helvetica, sans-serif, Arial;
+}
+.bordernav__inner {
+  width: 73.125%;
+  min-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bordernav__title {
+  font-weight: normal;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.bordernav__list {
+  display: flex;
+  justify-content: center;
+}
+.bordernav__listinfo {
+  border-right: 1px solid #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bordernav__listinfo:last-child {
+  border-right: none;
+}
+.bordernav__link {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
